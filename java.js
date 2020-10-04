@@ -1,4 +1,4 @@
-$(function() {
+$(document).ready(function() {
     $('#image1').hover(function() {
         $('.overlay1').toggle();
     })
