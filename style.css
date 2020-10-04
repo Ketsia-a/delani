@@ -147,6 +147,60 @@ h4 {
     text-align: center;
 }
 
+
+/* 
+.popup {
+    position: relative;
+    display: inline-block;
+} */
+
+
+/* The actual popup */
+
+.popup .popuptext {
+    visibility: hidden;
+    width: 500px;
+    height: 400px;
+    background-color: teal;
+    color: black;
+    text-align: center;
+    position: absolute;
+}
+
+
+/* Toggle this class - hide and show the popup */
+
+
+/* 
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+} */
+
+
+/* Add animation (fade in the popup) */
+
+
+/* 
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+} */
+
 @media screen and (max-width: 900px) {
     .col-3 {
         width: 50%;
