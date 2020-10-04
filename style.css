@@ -52,12 +52,6 @@ body p {
     float: left;
 }
 
-
-/* .porto {
-    padding-left: 50px;
-    padding-right: 50px;
-} */
-
 .overlay1,
 .overlay2,
 .overlay3,
@@ -151,6 +145,16 @@ footer {
 
 footer img {
     padding: 10px;
+}
+
+.s-icon-text,
+.s-icon2-text,
+.s-icon3-text {
+    display: none;
+}
+
+h4 {
+    text-align: center;
 }
 
 @media screen and (max-width: 900px) {
