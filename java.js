@@ -1,12 +1,3 @@
-// $(function() {
-//     $('#portofolio').hover(function() {
-//         $(this).width(1.25 * $(this).width());
-//         $(this).width(1.25 * $(this).height());
-//     }, function() {
-//         $(this).width(0.8 * $(this).width());
-//         $(this).width(0.8 * $(this).height());
-//     });
-// });
 $(function() {
     $('#image1').hover(function() {
         $('.overlay1').toggle();
@@ -32,4 +23,34 @@ $(function() {
     $('#image8').hover(function() {
         $('.overlay8').toggle();
     })
+})
+$(function() {
+    $('.s-icon-1').click(function() {
+        $('.s-icon-text').show()
+        $('.s-icon-1').hide()
+
+    })
+    $('.s-icon-text').click(function() {
+        $('.s-icon-1').show()
+        $('.s-icon-text').hide()
+    })
+    $('.s-icon-2').click(function() {
+        $('.s-icon2-text').show()
+        $('.s-icon-2').hide()
+
+    })
+    $('.s-icon2-text').click(function() {
+        $('.s-icon-2').show()
+        $('.s-icon2-text').hide()
+    })
+    $('.s-icon-3').click(function() {
+        $('.s-icon3-text').show()
+        $('.s-icon-3').hide()
+
+    })
+    $('.s-icon3-text').click(function() {
+        $('.s-icon-3').show()
+        $('.s-icon3-text').hide()
+    })
+
 })
